@@ -321,7 +321,6 @@ a{
     background-color: var(--primary);
 }
 .hero .circle{
-    
     position: relative;
     top: 0.1rem;
     left: -11rem;
@@ -1259,10 +1258,8 @@ a{
         right: 23%;
         top: 48%;
     }
-    /*---Hero--*/
-    .hero{
-        object-fit: cover;
-    }
+    
+    
     /*----about----*/
     .about img{
         padding: 0;
