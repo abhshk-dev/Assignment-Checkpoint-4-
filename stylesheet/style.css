@@ -289,7 +289,7 @@ a{
 /*----Hero section----*/
 
 .hero{
-    background: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/assets/media/hero-bg.jpg) center center/cover no-repeat;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../assets/media/hero-bg.jpg) center center/cover no-repeat;
     height: 80vh;
     width: 100vw;
     display: flex;
@@ -588,7 +588,7 @@ a{
 
 .testimonial{
     background: linear-gradient(to bottom,rgba(0,0,0,0.34),rgba(0,0,0,0.34))
-                 , url(/assets/media/testimonials-bg.jpg) center center/cover no-repeat;
+                 , url(../assets/media/testimonials-bg.jpg) center center/cover no-repeat;
     background-attachment: fixed;            
 }
 
