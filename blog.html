@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-Checkpoint-4-</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/882d59f2ae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!---Header section-->
+     <header class="header">
+        <div class="container flex justify-between align-center">
+            <a class="brand" href="index.html">
+                <strong>Flexor</strong>
+            </a>
+            <label for="toggle" class="bars">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </label>
+            <input type="checkbox" id="toggle">
+            <nav class="navbar">
+                <ul class="flex justify-between align-center sm-column">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a class="hover" href="#about">About</a></li>
+                    <li><a class="hover"  href="#service">Services</a></li>
+                    <li><a class="hover"  href="#portfolio">Portfolio</a></li>
+                    <li><a class="hover" href="#team">Team</a></li>
+                    <li><a class="hover" href="#pricing">Pricing</a></li>
+                    <li><a class="hover" href="blog.html">Blog</a></li>
+                    <li>
+                        <a  href="#" class="hover">Drop down
+                            <i class="fas fa-angle-down"></i>
+                            </a>
+                        <ul class="dropdown-col">
+                            
+                                <li> <a href="#" class="hover">Drop down 1</a> </li>
+                                <li> 
+                                    <a href="#" class="sub-drop-down hover">Drop down 2
+                                        <i class="fas fa-angle-down"></i>
+                                    </a>
+                                    <ul class="sub-drop-down-col">
+                                        <li><a class="hover" href="#">Drop-down-1</a> </li>
+                                        <li><a class="hover" href="#">Drop-down-2</a></li>
+                                        <li><a class="hover" href="#">Drop-down-3</a></li>
+                                        <li><a class="hover" href="#">Drop-down-4</a></li>
+                                        <li><a class="hover" href="#">Drop-down-5</a></li>
+                                    </ul>
+                                 </li>
+                                <li> <a class="hover" href="#">Drop down 3</a></li>
+                                <li> <a class="hover" href="#">Drop down 4</a></li>
+                                <li> <a class="hover" href="#">Drop down 5</a></li>
+                            
+                           
+                        </ul>
+                    </li>
+                    <li><a  class="hover" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+    <main>
+        <section class="blog-nav">
+            <div class="container">
+                <div>
+                    <a class="active" href="index.html">Home</a> / <a href="blog.html">Blog</a>
+                </div>
+                <h2 class="sec-header">Blog</h2>
+            </div>
+        </section>
+        <section class="blog-articles padding">
+            <div class="container  flex justify-between align-center wrap sm-wrap">
+                <article class="flex-30 sm-48 blog-col">
+                    <figure>
+                        <img class="full-width" src="assets/media/blog-1.jpg" alt="blog-1">
+                    </figure>
+                    <div class="blog-col-text">
+                        <h4>
+                            Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Incidunt debitis veniam.
+                        </h4>
+                        <div class="blog-info">
+                            <span>
+                                <i class="fas fa-user" aria-hidden="true"></i> John Doe
+                            </span>
+                            <time datetime="2020/1/1">
+                                <i class="far fa-clock" aria-hidden="true"></i> Jan 1,2020
+                            </time>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis eos 
+                            voluptates aspernatur ratione, dicta placeat assumenda labore nesciunt 
+                            dolorum, reiciendis ducimus.
+                        </p>
+                        <div class="flex justify-end">
+                            <a href="#" class="btn ">Read More</a>   
+                        </div>
+                        
+                    </div>
+                </article>
+                <article class="flex-30 sm-48 blog-col">
+                    <figure>
+                        <img class="full-width" src="assets/media/blog-2.jpg" alt="blog-2">
+                    </figure>
+                    <div class="blog-col-text">
+                        <h4>
+                            Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Incidunt debitis veniam.
+                        </h4>
+                        <div class="blog-info">
+                            <span>
+                                <i class="fas fa-user" aria-hidden="true"></i> John Doe
+                            </span>
+                            <time datetime="2020/1/1">
+                                <i class="far fa-clock" aria-hidden="true"></i> Jan 1,2020
+                            </time>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis eos 
+                            voluptates aspernatur ratione, dicta placeat assumenda labore nesciunt 
+                            dolorum, reiciendis ducimus.
+                        </p>
+                        <div class="flex justify-end">
+                            <a href="#" class="btn ">Read More</a>   
+                        </div>
+                        
+                    </div>
+                </article>
+                <article class="flex-30 sm-48 blog-col">
+                    <figure>
+                        <img class="full-width" src="assets/media/blog-3.jpg" alt="blog-3">
+                    </figure>
+                    <div class="blog-col-text">
+                        <h4>
+                            Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Incidunt debitis veniam.
+                        </h4>
+                        <div class="blog-info">
+                            <span>
+                                <i class="fas fa-user" aria-hidden="true"></i> John Doe
+                            </span>
+                            <time datetime="2020/1/1">
+                                <i class="far fa-clock" aria-hidden="true"></i> Jan 1,2020
+                            </time>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis eos 
+                            voluptates aspernatur ratione, dicta placeat assumenda labore nesciunt 
+                            dolorum, reiciendis ducimus.
+                        </p>
+                        <div class="flex justify-end">
+                            <a href="#" class="btn ">Read More</a>   
+                        </div>
+                        
+                    </div>
+                </article> 
+                <article class="flex-30 sm-48 blog-col">
+                    <figure>
+                        <img class="full-width" src="assets/media/blog-4.jpg" alt="blog-4">
+                    </figure>
+                    <div class="blog-col-text">
+                        <h4>
+                            Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Incidunt debitis veniam.
+                        </h4>
+                        <div class="blog-info">
+                            <span>
+                                <i class="fas fa-user" aria-hidden="true"></i> John Doe
+                            </span>
+                            <time datetime="2020/1/1">
+                                <i class="far fa-clock" aria-hidden="true"></i> Jan 1,2020
+                            </time>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis eos 
+                            voluptates aspernatur ratione, dicta placeat assumenda labore nesciunt 
+                            dolorum, reiciendis ducimus.
+                        </p>
+                        <div class="flex justify-end">
+                            <a href="#" class="btn ">Read More</a>   
+                        </div>
+                        
+                    </div>
+                </article>
+                <article class="flex-30 sm-48 blog-col">
+                    <figure>
+                        <img class="full-width" src="assets/media/blog-5.jpg" alt="blog-5">
+                    </figure>
+                    <div class="blog-col-text">
+                        <h4>
+                            Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Incidunt debitis veniam.
+                        </h4>
+                        <div class="blog-info">
+                            <span>
+                                <i class="fas fa-user" aria-hidden="true"></i> John Doe
+                            </span>
+                            <time datetime="2020/1/1">
+                                <i class="far fa-clock" aria-hidden="true"></i> Jan 1,2020
+                            </time>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis eos 
+                            voluptates aspernatur ratione, dicta placeat assumenda labore nesciunt 
+                            dolorum, reiciendis ducimus.
+                        </p>
+                        <div class="flex justify-end">
+                            <a href="#" class="btn ">Read More</a>   
+                        </div>
+                        
+                    </div>
+                </article>
+                <article class="flex-30 sm-48 blog-col">
+                    <figure>
+                        <img class="full-width" src="assets/media/blog-6.jpg" alt="blog-6">
+                    </figure>
+                    <div class="blog-col-text">
+                        <h4>
+                            Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Incidunt debitis veniam.
+                        </h4>
+                        <div class="blog-info">
+                            <span>
+                                <i class="fas fa-user" aria-hidden="true"></i> John Doe
+                            </span>
+                            <time datetime="2020/1/1">
+                                <i class="far fa-clock" aria-hidden="true"></i> Jan 1,2020
+                            </time>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis eos 
+                            voluptates aspernatur ratione, dicta placeat assumenda labore nesciunt 
+                            dolorum, reiciendis ducimus.
+                        </p>
+                        <div class="flex justify-end">
+                            <a href="#" class="btn ">Read More</a>   
+                        </div>
+                        
+                    </div>
+                </article>
+            </div>
+            <ul class=" blog-page">
+                <li>
+                    <a href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="#">1</a>
+                </li>
+                <li>
+                    <a class="active-page" href="#">2</a>
+                </li>
+                <li>
+                    <a href="#">3</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <a href="#top" class="top-btn">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </a>
+     <!---Footer section-->
+     <footer class="footer ">
+        <div class="footer-up padding">
+            <div class="container flex justify-between sm-wrap ">
+                <div class="flex-20 sm-48  sm-mabot">
+                    <h4>Flexor</h4>
+                    <address>
+                        A-108 Adam Street, <br> 
+                        New York,NY 535022 <br> 
+                        United States
+                    </address>
+                    <p class="phone"> <strong>Phone</strong> :+1 5589 55488 55</p>
+                    <p class="email"> <strong>Email</strong> :info@example.com </p>
+                </div>
+                <div class="flex-15 sm-48  sm-mabot">
+                    <h5>Useful Links</h5>
+                    <ul>
+                        <li><i class="fas fa-chevron-right" aria-hidden="true"></i><a href="#">Home</a></li>
+                        <li><i class="fas fa-chevron-right" aria-hidden="true"></i><a href="#">About us</a></li>
+                        <li><i class="fas fa-chevron-right" aria-hidden="true"></i><a href="#">Services</a></li>
+                        <li><i class="fas fa-chevron-right" aria-hidden="true"></i><a href="#">Terms of Service</a></li>
+                        <li><i class="fas fa-chevron-right" aria-hidden="true"></i><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="flex-15 sm-48  sm-matop">
+                    <h5>Our Services</h5>
+                    <ul>
+                        <li><i class="fas fa-chevron-right" aria-hidden="true"></i><a href="#">Web Design</a></li>
+                        <li><i class="fas fa-chevron-right" aria-hidden="true"></i><a href="#">Web Development</a></li>
+                        <li><i class="fas fa-chevron-right" aria-hidden="true"></i><a href="#">Product Management</a></li>
+                        <li><i class="fas fa-chevron-right" aria-hidden="true"></i><a href="#">Marketing</a></li>
+                        <li><i class="fas fa-chevron-right" aria-hidden="true"></i><a href="#">Graphic Design</a></li>
+                    </ul>
+                </div>
+                <div class="flex-30 sm-48 sm-matop news-letter">
+                    <h5>Join Our Newsletter</h5>
+                    <p>Tamen Quem nulla quae legam multos aute sint culpa legam
+                        noster magma
+                    </p>
+                    <div class="outer-btn flex">
+                        <div class="btn">Subcribe</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-down text-center">
+            <div class="flex container justify-between align-center sm-center ">
+                <div>
+                    <small>
+                        © Copyright  <strong>Flexor</strong>. All Rights Reserved.
+                    </small>
+                    <p>Designed by <span>BootstrapMade</span></p>
+                </div>
+                <figure class="sm-matop">
+                    <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fab fa-skype" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                </figure>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
