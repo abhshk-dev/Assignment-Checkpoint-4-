@@ -1240,7 +1240,7 @@ a{
 }
 @media screen and (max-width:576px) {
     html{
-        font-size: 10px;
+        font-size: 12px;
     }
     .container{
         max-width: 532px;
