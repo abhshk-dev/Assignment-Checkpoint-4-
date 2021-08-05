@@ -671,7 +671,7 @@ a{
     opacity: 0;
 }
 
-.port-img:hover ~ .port-col{
+.port-img:hover  .port-col{
     opacity: 1;
     transition: all 210ms ease-in-out;
 }
