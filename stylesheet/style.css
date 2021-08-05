@@ -670,10 +670,13 @@ a{
     right: 2rem;
     opacity: 0;
 }
-.port-col:hover{
+
+.port-img:hover ~ .port-col{
     opacity: 1;
     transition: all 210ms ease-in-out;
 }
+
+
 .port-col h3{
     font-size: 1.3rem;
     color: var(--text-dark);
@@ -733,7 +736,7 @@ a{
     top: 62%;
     opacity: 0;
 }   
-.team-social-links:hover{
+.team-col:hover .team-social-links{
     opacity: 1;
     transition: all 310ms ease-in-out;
     
